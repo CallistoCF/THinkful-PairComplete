@@ -1,0 +1,56 @@
+html {
+	box-sizing: border-box;
+	display: block;
+	width: 100%;
+	overflow: auto;
+}
+
+nav {
+	height: 100px;
+	text-align: center;
+	position: fixed;
+	width: 100%;
+	border: 1px red solid;
+	z-index: 9999;
+}
+
+.heading {
+	margin-top:38px;
+}
+
+.left {
+	float: left;
+	position: relative;
+	margin-left: 10px;
+}
+
+.right {
+	position: relative;
+	margin-right: 10px;
+	float: right;
+}
+
+.masthead {
+	height: 500px;
+}
+
+.one, .two, .three, .body-text {
+	height: 300px;
+	border: 1px red solid;
+	width: 100%;
+	margin-right: 0;
+}
+
+.rectangle {
+	width: 70%;
+	border: 1px solid yellow;
+	height: inherit;
+	z-index: 1;
+}
+
+.square {
+	width: 30%;
+	border: 1px solid blue;
+	height: inherit;
+	z-index: 1;
+}
