@@ -2,6 +2,11 @@
   display: flex;
 }
 
+.site-wrap {
+  z-index: -5;
+  width: 105%;
+}
+
 html {
 	background-color: white;
 	z-index: -2;
@@ -76,8 +81,9 @@ html {
 	position: fixed;
     overflow: hidden;
     top: 0;
-    background: grey;
+    color: white;
     text-align: left;
+    text-shadow: 2px 2px black;
     display: block;
     -o-transform: translate3d(0, 0, 0);
     -ms-transform: translate3d(0, 0, 0);
@@ -87,7 +93,7 @@ html {
     -webkit-transition: background 500ms ease;
     -moz-transition: background 500ms ease;
     transition: background 500ms ease;
-    z-index: 999999999;
+
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
@@ -97,7 +103,7 @@ html {
     height: 100%;
     width: 100%;
     text-align: center;
-    z-index: 0;
+    z-index: 5;
     -moz-box-shadow: none!important;
     -webkit-box-shadow: none!important;
     box-shadow: none!important;
@@ -344,6 +350,7 @@ input, textarea {
   left: 50px;
   word-wrap: normal;
   line-height: 1.5;
+  text-shadow: 2px 2px black;
 }
 
 .inboxtext > h1 {
@@ -354,6 +361,7 @@ input, textarea {
   padding-bottom: 20px;
   size: 14px;
   max-width: 400px;
+  text-shadow: 2px 2px black;
 }
 
 .filler {
@@ -466,6 +474,7 @@ input, textarea {
 	position: relative;
 	top: 150px;
 	left: 50px;
+  text-shadow: 2px 2px black;
 }
 
 .lineBreak {
