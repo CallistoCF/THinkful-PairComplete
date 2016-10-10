@@ -121,7 +121,7 @@ html {
     -webkit-transition: all 500ms ease;
     -moz-transition: all 500ms ease;
     transition: all 500ms ease;
-    background-color: rgba(0,0,0,0.5);
+
 
 }
 .show-nav .overlay ul li a {
@@ -131,7 +131,7 @@ html {
 
 .show-nav {
     background: #2b343f;
-    
+
     -webkit-box-shadow: inset -1.5em 0 1.5em -0.75em rgba(0, 0, 0, 0.5);
     -moz-box-shadow: inset -1.5em 0 1.5em -0.75em rgba(0, 0, 0, 0.5);
     box-shadow: inset -1.5em 0 1.5em -0.75em rgba(0, 0, 0, 0.5);
